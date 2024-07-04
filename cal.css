@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+main {
+    height: 35rem;
+    width: 28%;
+    background-color: #1b263b;
+    margin: 5rem auto;
+    border-radius: 10px;
+}
+#display{
+    height: 6.5rem;
+    width: 95%;
+    border: none;
+    margin-top: 0.6rem;
+    margin-left: 0.7rem;
+    background-color: #1b263b;
+    color: white;
+    font-size: 3rem;
+    text-align: right;
+}
+.btn {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(4,1fr);
+    width: 90%;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+.btn button {
+    padding: 20px;
+    margin: 10px;
+    border: none;
+    background-color: #25334a;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.45) inset;
+    color: white;
+    font-size: 16px;
+
+}
